@@ -1,8 +1,5 @@
-import pandas as pd
+import streamlit as st
 
-# Import the CSV file
-file_path = 'vehicles_us.csv'
-data = pd.read_csv(file_path)
+st.header('Lanzar una moneda')
 
-# Display the first few rows of the dataset
-print(data.head())
+st.write('Esta aplicación aún no es funcional. En construcción.')
